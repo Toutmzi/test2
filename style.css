@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    padding-inline: 200px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+
+    
+    color: #E5E7EB;
+}
+.tophead {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    list-style: none;
+    margin-top: 0cm;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+.top2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex: 1;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    gap: 40px;
+    flex: 1;
+
+}
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin-top: 0;
+}
+
+.tophead2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;  /* Add some space inside the tophead2 section */
+    padding-left: 0;
+    gap: 10px;
+  }
+  
+  .tophead2 > span:first-child {  /* Target the first child element (span) within tophead2 */
+    font-weight: bolder;
+    font-size: 48px;
+  }
+  
+  .tophead2 > p {  /* Target the paragraph element (p) within tophead2 */
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 0;
+  }
+.paragraf {
+    
